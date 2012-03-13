@@ -11,15 +11,13 @@
     <description>Implementation of the XML Key Management Specification 2.0 (http://www.w3.org/TR/xkms2/)</description>
     <url>http://www.gongoo.org</url>
     
-
-<!--
-
 	<licenses>
-		<license>
-needs still to be decided
-		</license>
+	    <license>
+		    <name>Apache Software License - Version 2.0</name>
+		    <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		    <distribution>repo</distribution>
+	    </license>
 	</licenses>
--->
 
     <scm>
         <connection>scm:git:git@github.com:gongoo/gongoo.git</connection>
@@ -41,6 +39,7 @@ needs still to be decided
 
     <modules>
         <module>xkms-provider-framework</module>
+        <module>xkms-provider-impl</module>
     </modules>
 
 	<dependencyManagement>
