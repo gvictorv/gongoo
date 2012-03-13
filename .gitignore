@@ -1,5 +1,10 @@
+target
+
+# Eclipse
 .classpath
 .project
 .settings
 bin
-target
+
+# Mac
+.DS_Store
